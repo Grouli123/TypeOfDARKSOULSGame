@@ -181,6 +181,11 @@ namespace SG
             selectWindow.SetActive(false);
         }
 
+        public void CloseLvlUpWindow()
+        {
+            levelUpWindow.SetActive(false);
+        }
+
         public void CloseAllInventoryWindow()
         {
             ResetAllSelectedSlot();

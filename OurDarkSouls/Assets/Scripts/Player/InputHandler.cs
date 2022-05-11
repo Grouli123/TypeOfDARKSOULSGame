@@ -223,12 +223,14 @@ namespace SG
                 uIManager.OpenSelectWindow();
                 uIManager.UpdateUI();
                 uIManager.hudWindow.SetActive(false);
+                uIManager.CloseLvlUpWindow();
               }
               else
               {
                 uIManager.CloseSelectWindow();
                 uIManager.CloseAllInventoryWindow();
                 uIManager.hudWindow.SetActive(true);
+                uIManager.CloseLvlUpWindow();
               }
             }
           }
