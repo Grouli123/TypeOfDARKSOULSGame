@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1670a5a98fdbcfc498eaf9eb635f225e, type: 3}
+  m_Name: MagicHemlet
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: 77c0cec31c8d8d9106dc714deba464bd, type: 3}
+  itemName: "\u041C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0448\u043B\u0435\u043C"
+  physicalDefense: 2
+  magicDefense: 0
+  poisonResistance: 0
+  helmetModelName: Chr_Head_No_Elements_Male_01
+  hideFacialFeatures: 0

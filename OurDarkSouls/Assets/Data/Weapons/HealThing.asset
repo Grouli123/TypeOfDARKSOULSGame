@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 534e857c15b92dd43bf69826813d0660, type: 3}
+  m_Name: HealThing
+  m_EditorClassIdentifier: 
+  itemIcon: {fileID: 21300000, guid: f9df32828fa4964656e13eb12dec8b58, type: 3}
+  itemName: "\u041C\u043E\u043B\u043E\u0442 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F"
+  modelPrefab: {fileID: 6170973935267080012, guid: 73c74e564ca714a4dadc51908fc64ca9, type: 3}
+  isUnarmed: 0
+  physicalDamage: 25
+  criticalDamageMultiplier: 4
+  physicalDamageAbsorption: 0
+  right_hand_idle: Right_Arm_Idle_01
+  left_hand_idle: Left_Arm_Idle_01
+  th_idle: TH_Idle_01
+  OH_Light_Attack_1: OH_Light_Attack_01
+  OH_Light_Attack_2: OH_Light_Attack_02
+  OH_Heavy_Attack_1: OH_Heavy_Attack_01
+  TH_light_attack_01: TH_Sword_Attack_01
+  TH_light_attack_02: TH_Sword_Attack_02
+  TH_Heavy_attack_01: TH_Sword_Attack_03
+  weapon_art: 
+  baseStamina: 0
+  lightAttackMultiplier: 0
+  heavyAttackMultiplier: 0
+  isSpellCaster: 0
+  isFaithCaster: 1
+  isPyroCaster: 0
+  isMeleeWeapon: 0
+  isShieldWeapon: 0
